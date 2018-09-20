@@ -99,7 +99,7 @@ class Q_network():
 
 		if len(self.hundred_ep_reward) >=100:
 			self.hundred_ep_reward.pop(0)
-			self.hundred_ep_reward.append(episode_reward)	
+			self.hundred_ep_reward.append(episode_reward)
 		else:
 			self.hundred_ep_reward.append(episode_reward)
 		
